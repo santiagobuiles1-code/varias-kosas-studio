@@ -7,7 +7,7 @@
   <title>Iniciar Sesión — KOSAS STUDIO</title>
   <meta name="description"
     content="Acceso a la plataforma KOSAS STUDIO. Inicia sesión para explorar el catálogo y gestionar tus objetos.">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="views/css/style.css">
 </head>
 
 <body>
@@ -25,15 +25,6 @@
         <span>KOSAS</span>
         <span class="nav-brand-badge">STUDIO</span>
       </a>
-
-      <nav aria-label="Navegación del sitio">
-        <ul class="nav-links">
-          <li><a href="index.html" class="nav-link active">Iniciar Sesión</a></li>
-          <li><a href="pages/catalogo.html" class="nav-link">Explorar Cosas</a></li>
-          <li><a href="pages/agregar-cosa.html" class="nav-link highlight">+ Publicar Cosa</a></li>
-          <li><a href="pages/registro.html" class="nav-link">Crear Cuenta</a></li>
-        </ul>
-      </nav>
     </div>
   </header>
 
@@ -84,7 +75,7 @@
 
           <div class="form-footer-nav">
             ¿Aún no tienes una cuenta?
-            <a href="pages/registro.html">Crear cuenta nueva</a>
+            <a href="./views/pages/usuario-view-registro.html">Crear cuenta nueva</a>
           </div>
 
         </div>
@@ -106,22 +97,12 @@
         </div>
 
         <div class="footer-col">
-          <h4>NAVEGACIÓN</h4>
-          <ul class="footer-links">
-            <li><a href="pages/catalogo.html" class="footer-link">Explorar Catálogo</a></li>
-            <li><a href="pages/agregar-cosa.html" class="footer-link">Publicar una Cosa</a></li>
-            <li><a href="index.html" class="footer-link">Acceso de Clientes</a></li>
-            <li><a href="pages/registro.html" class="footer-link">Crear Cuenta Nueva</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
           <h4>ATENCIÓN</h4>
           <ul class="footer-links">
-            <li><a href="pages/faq.html" class="footer-link">Preguntas Frecuentes</a></li>
-            <li><a href="pages/envios-devoluciones.html" class="footer-link">Guía de Envíos y Devoluciones</a></li>
-            <li><a href="pages/garantia.html" class="footer-link">Garantía de Productos</a></li>
-            <li><a href="pages/contacto.html" class="footer-link">Contacto y Ubicación</a></li>
+            <li><a href="views/pages/faq.html" class="footer-link">Preguntas Frecuentes</a></li>
+            <li><a href="views/pages/envios-devoluciones.html" class="footer-link">Guía de Envíos y Devoluciones</a></li>
+            <li><a href="views/pages/garantia.html" class="footer-link">Garantía de Productos</a></li>
+            <li><a href="views/pages/contacto.html" class="footer-link">Contacto y Ubicación</a></li>
           </ul>
         </div>
 
@@ -144,7 +125,7 @@
       </div>
     </div>
   </footer>
-  <script src="./js/auth-controller.js"></script>
+  <script src="./controllers/UsuarioController.js"></script>
 </body>
 
 </html>
